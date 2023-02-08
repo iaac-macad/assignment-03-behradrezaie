@@ -50,7 +50,7 @@ async function compute() {
   param2.append([0], [uDivision_slider.valueAsNumber]);
 
   const param3 = new RhinoCompute.Grasshopper.DataTree("tParameter");
-  param2.append([0], [tParameter_slider.valueAsNumber]);
+  param3.append([0], [tParameter_slider.valueAsNumber]);
 
   // clear values
   const trees = [];
